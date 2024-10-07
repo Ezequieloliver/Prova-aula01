@@ -1,0 +1,7 @@
+print ("Olá, seja bem vindo! Para começar, digite as informações solicitadas abaixo para saber o resultado")
+
+base = float(input("Digite a medida da base do seu retângulo:"))
+altura = float(input("Digite a medida da altura do seu retângulo:"))
+resultado = base * altura 
+print("="*30)
+print (f"A área total do seu retângulo é igual a:{resultado}")
